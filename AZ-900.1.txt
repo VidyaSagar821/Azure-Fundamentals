@@ -1,0 +1,89 @@
+AZ-900:
+
+Topics to cover az-900
+Describe cloud concepts 
+Describe Azure architecture and services 
+Describe Azure management and governance 
+
+1.Define Cloud Computing : Cloud computing is the delivery of computing services over the internet. Computing services include  IT infrastructure such as virtual machines, storage, databases, and networking. Cloud services also expand like Internet of Things (IoT), machine learning (ML), and artificial intelligence (AI).
+
+2.Cloud Service types
+->IaaS places the most responsibility on the consumer, with the cloud provider being responsible for the basics of physical security, power, and connectivity. 
+->SaaS places most of the responsibility with the cloud provider.
+->PaaS, being a middle ground between IaaS and SaaS, rests somewhere in the middle and evenly distributes responsibility between the cloud provider and the consumer.
+The cloud provider is always responsible for:
+
+The physical datacenter
+The physical network
+The physical hosts
+
+3.Cloud Models
+Private:Private cloud provides much greater control for the company and its IT department,and also high cost.
+
+Public: controlled, and maintained by a third-party cloud provider.anyone that wants to purchase cloud services can access and use resources. The general public availability is a key difference between public and private clouds.
+
+Hybrid:hybrid cloud environment can be used to allow a private cloud to surge for increased, temporary demand by deploying public cloud resources. Hybrid cloud can be used to provide an extra layer of security.
+
+Multi:In a multi-cloud scenario, you use multiple public cloud providers. 
+
+Azure Arc : Is a bridge that extends the Azure platform to help you build applications and services with the flexibility to run across datacenters, at the edge, and in multicloud environments
+
+Capital expenditure (CapEx): CapEx is typically a one-time, up-front expenditure to purchase or secure 
+
+operational expenditure (OpEx) : OpEx is spending money on services or products over time. Renting a convention center(what we use that purpose only pay)
+
+consumption-based model:
+Cloud computing falls under OpEx because cloud computing operates on a consumption-based model.  you pay for the IT resources you use. If you don’t use any IT resources you don’t pay for any IT resources.
+
+This consumption-based model has many benefits, including:
+
+No upfront costs.
+No need to purchase and manage costly infrastructure that users might not use to its fullest potential.
+The ability to pay for more resources when they're needed.
+The ability to stop paying for resources that are no longer needed.
+
+4.Azure physical infrastructure:
+The core architectural components of Azure may be broken down into two main groupings 
+1.physical infrastructure. 
+2.management infrastructure.
+
+1.physical infrastructure. 
+->Availability zones are primarily for VMs, managed disks, load balancers, and SQL databases. Azure services that support availability zones fall into three categories
+
+Zonal services: You pin the resource to a specific zone (for example, VMs, managed disks, IP addresses).
+Zone-redundant services: The platform replicates automatically across zones (for example, zone-redundant storage, SQL Database).
+Non-regional services: Services are always available from Azure geographies and are resilient to zone-wide outages as well as region-wide outages.
+
+2.management infrastructure.
+
+->The management infrastructure includes Azure resources and resource groups, subscriptions, and accounts. Understanding the hierarchical organization will help you plan your projects and products within Azure.
+
+->A resource is the basic building block of Azure. Anything you create, provision, deploy, etc. is a resource. Virtual Machines (VMs), virtual networks, databases, cognitive services, etc. are all considered resources within Azure.
+1. resource groups can't be nested, meaning you can’t put resource group B inside of resource group A.
+2.When you apply an action to a resource group, that action will apply to all the resources within the resource group. 
+
+Describe Azure regions, region pairs, and sovereign regions.
+Describe Availability Zones.
+Describe Azure datacenters.
+Describe Azure resources and Resource Groups.
+Describe subscriptions.
+Describe management groups.
+Describe the hierarchy of resource groups, subscriptions, and management groups.
+
+
+Describe Azure management and governance:
+
+Describe factors that can affect costs in Azure.
+Compare the Pricing calculator and Total Cost of Ownership (TCO) calculator.
+Describe the Microsoft Cost Management Tool.
+Describe the purpose of tags.
+
+
+
+
+
+
+
+
+
+
